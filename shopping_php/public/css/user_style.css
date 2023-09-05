@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(147, 208, 229);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.signup {
+    max-width: 500px;
+    margin: auto;
+    font-size: 16px;
+    
+}
+  
+
+.signup_header {
+    padding: 50px;
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+.signup .data {
+    background-color: white;
+    padding: 20px;
+
+}
+
+.signup .data .input {
+    text-align: center;
+}
+
+
+.signup p {
+    color: rgb(103, 104, 105);
+  
+}
+
+.signup button{
+    /* 背景色を無色に */
+  background: transparent;
+  /* 枠線を消す */
+  border: none;
+  /* クリックした際に枠線をnone消す */
+  outline: none;
+  /* 影を消す */
+  box-shadow: none;
+  color: white;
+  font-size: large;
+  
+}
+
+
+.signup .input {
+    background: rgb(159, 172, 183);
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.login_link{
+    text-align: right;
+}
+.login_link a{
+    color: rgb(55, 104, 139);
+}
+
+
+/* search.php */
+
